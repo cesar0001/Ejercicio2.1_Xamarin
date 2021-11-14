@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio2_1.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+
+            <Image x:Name="imagen" />
+            <Button Text="Capturar Fotografia" x:Name="btnfoto"  Clicked="btnfoto_Clicked" />
+            <Label Text="" />
+            <Entry Placeholder="Nombre" x:Name="nombre" />
+            <Entry Placeholder="Descripcion" x:Name="desc" />
+
+            <Button Text="Guardar Informacion SQLite" x:Name="btngua" Clicked="btngua_Clicked"/>
+            <Button Text="Ver Listado"  x:Name="btnl" Clicked="btnl_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+
+   
+
+</ContentPage>
